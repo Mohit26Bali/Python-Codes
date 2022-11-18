@@ -1,0 +1,8 @@
+num=int(input("enter a term...."))
+a,b,fib=0,1,0
+range=num-1
+while fib<range:
+    print(fib)
+    a=b
+    b=fib
+    fib=a+b
